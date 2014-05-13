@@ -1,0 +1,22 @@
+{
+  "name": "unpm-auth-ldap",
+  "version": "0.0.0",
+  "description": "Use an ldap server to auth for your private npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanramage/unpm-auth-ldap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanramage/unpm-auth-ldap/issues"
+  },
+  "author": "Ryan Ramage",
+  "license": "MIT",
+  "dependencies": {
+    "ldapauth-fork": "~2.2.12",
+    "ini": "~1.1.0"
+  }
+}
