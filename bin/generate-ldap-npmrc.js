@@ -15,6 +15,6 @@ var data = {};
 
 data._auth = new Buffer(auth, 'utf8').toString('base64')
 data.email = email;
-
+data['always-auth'] = true;
 
 console.log(ini.stringify(data))
