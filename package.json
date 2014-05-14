@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "generate-ldap-npmrc": "./bin/generate-ldap-npmrc.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/ryanramage/unpm-auth-ldap.git"
