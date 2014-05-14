@@ -1,6 +1,6 @@
 {
   "name": "unpm-auth-ldap",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Use an ldap server to auth for your private npm",
   "main": "index.js",
   "scripts": {

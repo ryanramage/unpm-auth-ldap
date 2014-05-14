@@ -31,9 +31,8 @@ The config section is from ldapauth. See https://www.npmjs.org/package/ldapauth-
 
 To help store your ldap credentials in a .npmrc file, you can use this small util:
 
-    npm install unpm-auth-ldap
-    cd unpm-auth-ldap
-    node bin/generate-ldap-npmrc <username> <password> <email>
+    npm install unpm-auth-ldap -g
+    generate-ldap-npmrc <username> <password> <email>
 
 Where username and password are your ldap credentials.
 
